@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .custom_shadow{
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        }
+    </style>
+    <title>Eyes Moving JS</title>
+</head>
+<body>
+    <section class="w-full bg-black h-[100vh] flex items-center justify-center ">
+        <div class="w-[620px] h-[600px] mx-auto rounded-full bg-white flex items-center justify-center ">
+            <div class="flex items-center justify-between px-[32px] mx-auto w-full ">
+                <div class="flex items-center justify-center rounded-full h-[250px] w-[250px] custom_shadow overflow-hidden">
+                    <div class="rounded-full h-[40px] w-[40px] bg-black transition-all eye" id="eye"></div>
+                </div>
+                <div class="flex items-center justify-center rounded-full h-[250px] w-[250px] custom_shadow overflow-hidden">
+                    <div class="rounded-full h-[40px] w-[40px] bg-black transition-all eye" id="eye"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="/app.js"></script>
+</body>
+</html>
